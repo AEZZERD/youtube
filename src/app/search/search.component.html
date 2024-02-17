@@ -1,0 +1,7 @@
+<div>
+    <img src="assets/search.jpg" alt="search" class="img-fluid mb-4" style="width: 2000px; height: 350px; " >
+    <b style="font-size: 23px;">Search</b>
+    <hr>
+    <p style="font-size: 15px;">Search video below and press enter</p>
+        <input type="text" class="form-control" placeholder="Search videos" [(ngModel)]="searchQuery" (keyup.enter)="searchVideos()">
+</div>
